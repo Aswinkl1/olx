@@ -1,6 +1,7 @@
-import React from "react";
 import searchBlack from "../assets/search1.svg";
 import searchWhite from "../assets/search.svg";
+import favorite from "../assets/favorite.svg";
+import sell from "../assets/addButton.png";
 
 import dropDown from "../assets/arrow-down.svg";
 export const Navbar = () => {
@@ -26,7 +27,7 @@ export const Navbar = () => {
             <img src={dropDown} alt="" className="w-5 hover:rotate-180" />
           </div>
         </div>
-        <div className="flex  mx-4 border-2 rounded-sm">
+        <div className="flex grow mx-4 border-2 rounded-sm">
           <input
             className="border-0 outline-0 grow pl-1"
             type="text"
@@ -38,11 +39,15 @@ export const Navbar = () => {
             <img src={searchWhite} alt="" className="w-7" />
           </span>
         </div>
-        <div className="flex">
-          <img src="" alt="" />
-          <a href="">Login</a>
+        <div className="flex justify-around w-80 items-center  font-extrabold">
+          <span>English</span>
+          <img src={dropDown} alt="" className="w-5 hover:rotate-180" />
 
-          <button>sell</button>
+          <img src={favorite} className="w-6" alt="" />
+          <a href="">Login</a>
+          <button>
+            <img src={sell} className="w-20" alt="" />
+          </button>
         </div>
       </nav>
     </>
