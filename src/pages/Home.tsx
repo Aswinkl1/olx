@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../components/Navbar";
 import Advertisement from "../components/Advertisement";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 export const Home = () => {
   return (
     <>
@@ -41,6 +42,8 @@ export const Home = () => {
       </div>
 
       <div className="h-170  mx-30 bg-white"></div>
+
+      <Footer />
     </>
   );
 };
