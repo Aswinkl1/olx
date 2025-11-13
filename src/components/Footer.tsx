@@ -83,7 +83,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="bg-[#004896] flex justify-center gap-20 mx-30 py-10 px-12">
+      <div className="bg-[#004896] flex justify-center gap-20 mx-30 pt-10 px-12">
         <img
           className="w-40"
           src="https://statics.olx.in/external/base/img/cartrade/logo/cartrade_tech.svg?v=1"
