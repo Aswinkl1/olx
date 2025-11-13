@@ -7,7 +7,7 @@ import dropDown from "../assets/arrow-down.svg";
 export const Navbar = () => {
   return (
     <>
-      <nav className="flex z-30 bg-[rgba(0,47,52,0.03)] sticky top-0 left-0 right-0 p-3 ">
+      <nav className="flex z-30 bg-white  sticky top-0 left-0 right-0 p-3 ">
         <div className="flex ">
           <img
             className="w-12"
@@ -50,7 +50,7 @@ export const Navbar = () => {
           </button>
         </div>
       </nav>
-      <div className="bg-white z-20 sticky top-20 flex gap-10 w-screen justify-center shadow-[0px_1px_4px_rgba(0,0,0,0.16)] p-3">
+      <div className="bg-white z-20 sticky top-19 flex gap-10 w-screen justify-center shadow-[0px_1px_4px_rgba(0,0,0,0.16)] p-3">
         <span className="font-black">All category</span>
         <img src={dropDown} alt="" className="w-5 hover:rotate-180" />
 
